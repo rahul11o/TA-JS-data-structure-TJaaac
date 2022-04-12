@@ -1,8 +1,18 @@
 // 1. Create an array named numbers and store 5 number values in it
+let numbers = [53,98,65,894,9487];
 
 // 2. Calculate the sum of array items and print it to the console using console.log()
+let sum = 0;
+for (let i = 0; i < numbers.length; i++ ){
+    sum  += numbers[i];
+    
+}
+console.log(sum);
 
 // 3. Calculate the average of array items and print it to the console using console.log()
+
+let average = sum/numbers.length;
+console.log(average);
 
 // 4. Find the highest number in the array and print it to the console using console.log()
 
