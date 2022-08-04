@@ -18,7 +18,7 @@ let newUser = user;
 
 2. Answer the following with reason:
 
-- `user == newUser;` // output and reason
+- `user == newUser;` // 
 - `user === newUser;`
 - `user.name === newUser.name;`
 - `user.name == newUser.name;`
