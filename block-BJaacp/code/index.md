@@ -12,7 +12,7 @@ let arr2 = arr;
 Answer the following with reason after going through the above code:
 
 - `[10] === [10]`
-- What is the value of obj? // answer
+- What is the value of obj? // "stark"
 - `obj == newObj`
 - `obj === newObj`
 - `user === newObj`
