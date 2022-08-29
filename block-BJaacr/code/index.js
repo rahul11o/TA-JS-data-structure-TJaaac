@@ -5,7 +5,6 @@ Only when you don't get it by yourself, comeback again and read the hint
 */
 
 // Write code for the following problems:
-console.log(got);
 
 // You have access to a variable named `got`. Which comes from `data.js` file
 
@@ -18,11 +17,18 @@ Hint: (Structure of got variable)
   - And, each person is an object with "name" and "description" properties
 */
 
-// 1. Log the value of key "houses"
+// 1. Log the value of key "houses" // 
+console.log(got.houses);
 
-// 2. Log the length of the "houses" key
+// 2. Log the length of the "houses" key // 
+console.log(got.houses.length)
+
 
 // 3. Log the name of all houses in got one by one
+
+for(let house of got.houses){
+  console.log(house)
+}
 
 // 4. Log the name of all the people in house Starks (index 0) one by one
 
